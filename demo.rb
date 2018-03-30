@@ -53,3 +53,12 @@ puts 525600
 minutes = 60 * 24 * 365
 puts "There are #{minutes} minutes in a year."
 # => There are 525600 minutes in a year
+
+# => Exercise 5: The following program prints the value of the variable. Why?
+
+my_string = 'Hello Ruby World'
+def my_string
+	'Hello World'
+	
+end
+puts my_string
